@@ -1,0 +1,1 @@
+Place the nine Olist dataset CSV files here after downloading from https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce. Raw CSVs are excluded from Git because they are large. See the root README.md for filenames and commands.

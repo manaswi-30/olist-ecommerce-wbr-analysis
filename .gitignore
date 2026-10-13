@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+data/raw/*.csv
+data/*.sqlite
+data/olist_wbr.sqlite
+data/olist_wbr.sqlite-*
+data/raw/*.csv

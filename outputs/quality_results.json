@@ -1,0 +1,105 @@
+[
+  {
+    "check": "qc_customer_match",
+    "severity": "CRITICAL",
+    "failing_rows": 0,
+    "sample_records": [],
+    "disposition": "passed; no action"
+  },
+  {
+    "check": "qc_delivery_chronology",
+    "severity": "CRITICAL",
+    "failing_rows": 0,
+    "sample_records": [],
+    "disposition": "passed; no action"
+  },
+  {
+    "check": "qc_item_numeric_values",
+    "severity": "WARNING",
+    "failing_rows": 0,
+    "sample_records": [],
+    "disposition": "passed; no action"
+  },
+  {
+    "check": "qc_order_id_integrity",
+    "severity": "CRITICAL",
+    "failing_rows": 0,
+    "sample_records": [],
+    "disposition": "passed; no action"
+  },
+  {
+    "check": "qc_payment_reconciliation",
+    "severity": "WARNING",
+    "failing_rows": 1033,
+    "sample_records": [
+      [
+        "0010dedd556712d7bb69a19cb7bbd37a",
+        0.0,
+        111.12,
+        111.12
+      ],
+      [
+        "00789ce015e7e5791c7914f32bb4fad4",
+        168.83,
+        190.81,
+        21.98
+      ],
+      [
+        "00a500bc03bc4ec968e574c2553bed4b",
+        0.0,
+        555.99,
+        555.99
+      ],
+      [
+        "00bca4adac549020c1273714d04d0208",
+        0.0,
+        111.3,
+        111.3
+      ],
+      [
+        "00d0ffd14774da775ac832ba8520510f",
+        0.0,
+        134.49,
+        134.49
+      ],
+      [
+        "00daac8efd71674d62356c2a306d1e4c",
+        0.0,
+        67.97,
+        67.97
+      ],
+      [
+        "0130f0f71fb0e831d18e6a3b33a3a50c",
+        0.0,
+        52.77,
+        52.77
+      ],
+      [
+        "016706d732e79b49035275c048edb2c4",
+        0.0,
+        65.0,
+        65.0
+      ],
+      [
+        "016726239765c18f66826453f39c64e3",
+        235.13,
+        265.77,
+        30.64
+      ],
+      [
+        "01cb6d702e5233235f4125309d184bf4",
+        0.0,
+        94.21,
+        94.21
+      ]
+    ],
+    "disposition": "flagged; raw/staging retained"
+  },
+  {
+    "check": "qc_review_score",
+    "severity": "CRITICAL",
+    "failing_rows": 0,
+    "sample_records": [],
+    "disposition": "passed; no action"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "dataset": "Brazilian E-Commerce Public Dataset by Olist",
+  "raw_csv_files": 9,
+  "mart_rows": 99441,
+  "distinct_mart_order_ids": 99441,
+  "item_price_revenue_brl": 13591643.7,
+  "quality_checks": 6,
+  "quality_results": {
+    "qc_customer_match": 0,
+    "qc_delivery_chronology": 0,
+    "qc_item_numeric_values": 0,
+    "qc_order_id_integrity": 0,
+    "qc_payment_reconciliation": 1033,
+    "qc_review_score": 0
+  },
+  "analysis_queries": 5,
+  "charts": 4,
+  "unit_tests": "7 passed",
+  "idempotency": "verified: order count, distinct IDs, item total and payment total unchanged after rerun",
+  "pdf_page_limit": "5 pages; verified",
+  "notes": [
+    "1,033 payment reconciliation exceptions are warning-level and flagged, not auto-corrected.",
+    "Source data covers 2016\u20132018; monthly edge periods are partial.",
+    "Database and raw CSVs excluded from ZIP because database is ~374 MB and source data is downloadable."
+  ]
+}

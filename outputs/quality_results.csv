@@ -1,0 +1,7 @@
+check,severity,failing_rows,disposition
+qc_customer_match,CRITICAL,0,passed; no action
+qc_delivery_chronology,CRITICAL,0,passed; no action
+qc_item_numeric_values,WARNING,0,passed; no action
+qc_order_id_integrity,CRITICAL,0,passed; no action
+qc_payment_reconciliation,WARNING,1033,flagged; raw/staging retained
+qc_review_score,CRITICAL,0,passed; no action
